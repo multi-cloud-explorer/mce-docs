@@ -1,0 +1,17 @@
+version: 2
+
+formats:
+  - htmlzip
+  - pdf
+
+python:
+   version: 3.7
+   install:
+      - requirements: requirements.txt
+      - requirements: requirements-doc.txt
+   system_packages: true
+
+sphinx:
+  builder: html
+  configuration: source/conf.py
+  fail_on_warning: false
