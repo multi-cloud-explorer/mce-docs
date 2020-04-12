@@ -1,0 +1,5 @@
+git+https://github.com/multi-cloud-explorer/mce-lib-azure.git@master#egg=mce_lib_azure
+git+https://github.com/multi-cloud-explorer/mce-django-app.git@master#egg=mce_django_app
+git+https://github.com/multi-cloud-explorer/mce-tasks-djq.git@master#egg=mce_tasks_djq
+git+https://github.com/multi-cloud-explorer/mce-django-server.git@master#egg=mce_django_server
+
