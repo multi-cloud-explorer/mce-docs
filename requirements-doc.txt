@@ -1,6 +1,6 @@
 python-decouple
 recommonmark
-Sphinx
+Sphinx>=3.0
 sphinx_rtd_theme
 sphinx-click
 sphinx-autodoc-typehints

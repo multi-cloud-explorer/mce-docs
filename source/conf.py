@@ -22,8 +22,7 @@ version = release
 
 # -- General configuration ---------------------------------------------------
 
-#from recommonmark.parser import CommonMarkParser
-#source_parsers = { '.md': CommonMarkParser }
+master_doc = "index"
 
 extensions = [
     'recommonmark',
