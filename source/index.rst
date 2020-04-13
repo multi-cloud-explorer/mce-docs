@@ -5,7 +5,7 @@ Multi-Cloud-Explorer
 
     **Ne pas utiliser ce projet en production pour l'instant !!!**
 
-**Multi-Cloud-Explorer** a pour objectif de **centraliser** un inventaire des ressources de **toutes vos souscriptions** Cloud pour plusieurs fournisseurs.
+**Multi-Cloud-Explorer** a pour objectif de **centraliser** l'inventaire et le suivi des changements, pour les ressources de **toutes vos souscriptions** Cloud.
 
 **La récupération des resources se fait par plusieurs méthodes:**
 
@@ -26,6 +26,7 @@ Multi-Cloud-Explorer
    architecture
    getting-started
    integration
+   state
    cloud-libraries/azure
 
 Fonctionnalités
