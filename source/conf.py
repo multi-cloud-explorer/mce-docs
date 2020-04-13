@@ -1,14 +1,13 @@
 # -- Path setup --------------------------------------------------------------
 
-import sys
 import os
-import django
 
 os.environ['DATABASE_URL'] = 'sqlite:///db.sqlite3'
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mce_django_server.settings.doc'
 
 #from mce_azure import core
 
+import django
 django.setup()
 
 # -- Project information -----------------------------------------------------
@@ -49,7 +48,7 @@ exclude_patterns = []
 
 #highlight_language = 'python'
 
-todo_include_todos = True
+todo_include_todos = False
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -88,9 +87,9 @@ html_theme_options = {
 napoleon_include_init_with_doc = False
 
 intersphinx_mapping = {
-    'python': ('http://docs.python.org/3.7', None),
-    'sphinx': ('http://sphinx.pocoo.org/', None),
-    'django': ('http://docs.djangoproject.com/en/dev/', 'http://docs.djangoproject.com/en/dev/_objects/'),
+    #'python': ('http://docs.python.org/3.7', None),
+    #'sphinx': ('http://sphinx.pocoo.org/', None),
+    #'django': ('http://docs.djangoproject.com/en/dev/', 'http://docs.djangoproject.com/en/dev/_objects/'),
 }
 
 """
@@ -102,6 +101,7 @@ extlinks = {
     'rs-base': ('https://support.radical-spam.org/public/'
                       '%s', ''),
 }
+Je suis en :duwikipediafr:`France` depuis ...
 """
 
 def setup(app):
