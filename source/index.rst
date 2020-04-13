@@ -1,7 +1,11 @@
 Multi-Cloud-Explorer
 ====================
 
-Multi-Cloud-Explorer a pour objectif de **centraliser** un inventaire des ressources de **toutes vos souscriptions** Cloud sur plusieurs fournisseurs.
+.. warning::
+
+    **Ne pas utiliser ce projet en production pour l'instant !!!**
+
+**Multi-Cloud-Explorer** a pour objectif de **centraliser** un inventaire des ressources de **toutes vos souscriptions** Cloud pour plusieurs fournisseurs.
 
 **La récupération des resources se fait par plusieurs méthodes:**
 
@@ -15,20 +19,21 @@ Multi-Cloud-Explorer a pour objectif de **centraliser** un inventaire des ressou
 - Bus d'évènements qui recevra tous les changements détectés
 - Utilisation de l'api REST
 
-
 .. toctree::
    :maxdepth: 1
    :glob:
 
+   architecture
    getting-started
+   integration
    cloud-libraries/azure
 
 Fonctionnalités
 ---------------
 
-- [x] Inventaire automatique des resources
-- [x] Historisation des changements au format [Json Patch](http://jsonpatch.com/)
-- [ ] Push des évènements vers une queue de donnée ou un WebHook
+- \[x\] Inventaire automatique des resources
+- \[x\] Historisation des changements au format `Json Patch`_
+- \[ \] Push des évènements vers une queue de donnée ou un WebHook
 
 Providers
 ---------
@@ -44,3 +49,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+.. include:: links.rst
