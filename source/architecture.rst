@@ -16,12 +16,15 @@ mce-django-app
 
 Application Django que vous pouvez ajouter à un projet Django existant ou utiliser à travers le projet mce-django-server.
 
-mce-tasks-djq
+mce-tasks-rq
 *************
 
-Implémentation `Django-Q`_ du worker de gestion des tâches (solution intermédiaire à `Celery`_).
+Implémentation `Python RQ`_ du worker de gestion des tâches (alternative à `Celery`_).
 
-Une implémentation Celery pour remplacer ce composant si vous n'êtes pas convaincu par Django-Q.
+mce-tasks-djq (obsolète)
+************************
+
+Implémentation `Django-Q`_ du worker de gestion des tâches (alternative à `Celery`_).
 
 mce-django-server
 *****************

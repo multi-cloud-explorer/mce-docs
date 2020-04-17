@@ -20,13 +20,19 @@ Multi-Cloud-Explorer
 - Utilisation de l'api REST
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :caption: Introduction
    :glob:
 
    architecture
    getting-started
    integration
    state
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Azure
+
    cloud-libraries/azure
 
 Fonctionnalités
