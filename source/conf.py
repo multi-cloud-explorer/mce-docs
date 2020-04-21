@@ -80,6 +80,26 @@ html_theme_options = {
     #'titles_only': False
 }
 
+"""
+import sphinx_rtd_theme
+
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+html_theme_options = {
+  'prev_next_buttons_location': 'both',
+  'style_external_links': True,
+  'analytics_id': "UA-162730326-1",
+  # Toc options
+  'collapse_navigation': False,
+  'sticky_navigation': True,
+  'includehidden': True,
+  'titles_only': False
+}
+
+def setup(app):
+    app.add_javascript('js/expand.js')
+    app.add_stylesheet('css/expand.css')
+"""
 
 # -- Extension configuration -------------------------------------------------
 

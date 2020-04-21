@@ -29,6 +29,13 @@ mce-lib-azure
 
 `mce-lib-azure`_
 
+mce-event-push
+**************
+
+|Travis mce-event-push| |Coveralls mce-event-push| |Codecov mce-event-push| |Requirements mce-event-push|
+
+`mce-event-push`_
+
 
 .. |Travis mce-django-server| image:: https://travis-ci.org/multi-cloud-explorer/mce-django-server.svg?branch=master
     :target: https://travis-ci.org/multi-cloud-explorer/mce-django-server
@@ -70,6 +77,15 @@ mce-lib-azure
      :target: https://requires.io/github/multi-cloud-explorer/mce-lib-azure/requirements/?branch=master
      :alt: Requirements Status
 
+.. |Travis mce-event-push| image:: https://travis-ci.org/multi-cloud-explorer/mce-event-push.svg?branch=master
+     :target: https://travis-ci.org/multi-cloud-explorer/mce-event-push
+.. |Coveralls mce-event-push| image:: https://coveralls.io/repos/github/multi-cloud-explorer/mce-event-push/badge.svg?branch=master
+     :target: https://coveralls.io/github/multi-cloud-explorer/mce-event-push?branch=master
+.. |Codecov mce-event-push| image:: https://codecov.io/gh/multi-cloud-explorer/mce-event-push/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/multi-cloud-explorer/mce-event-push
+.. |Requirements mce-event-push| image:: https://requires.io/github/multi-cloud-explorer/mce-event-push/requirements.svg?branch=master
+     :target: https://requires.io/github/multi-cloud-explorer/mce-event-push/requirements/?branch=master
+     :alt: Requirements Status
 
 
 .. include:: links.rst

@@ -1,10 +1,12 @@
-.. _`mce-lib-azure`: https://github.com/multi-cloud-explorer/mce-lib-azure
-.. _`mce-django-app`: https://github.com/multi-cloud-explorer/mce-django-app
-.. _`mce-tasks-djq`: https://github.com/multi-cloud-explorer/mce-tasks-djq
-.. _`mce-tasks-rq`: https://github.com/multi-cloud-explorer/mce-tasks-rq
-.. _`mce-django-server`: https://github.com/multi-cloud-explorer/mce-django-server
+.. _`mce-lib-azure`: https://github.com/multi-cloud-explorer/mce-lib-azure.git
+.. _`mce-django-app`: https://github.com/multi-cloud-explorer/mce-django-app.git
+.. _`mce-tasks-djq`: https://github.com/multi-cloud-explorer/mce-tasks-djq.git
+.. _`mce-tasks-rq`: https://github.com/multi-cloud-explorer/mce-tasks-rq.git
+.. _`mce-django-server`: https://github.com/multi-cloud-explorer/mce-django-server.git
+.. _`mce-event-push`: https://github.com/multi-cloud-explorer/mce-event-push.git
 
 
+.. _`Django Material`: https://github.com/MaistrenkoAnton/django-material-admin
 
 .. _`Python RQ`: https://python-rq.org/
 .. _`RQ Scheduler`: https://github.com/rq/rq-scheduler

@@ -21,15 +21,25 @@ mce-tasks-rq
 
 Implémentation `Python RQ`_ du worker de gestion des tâches (alternative à `Celery`_).
 
-mce-tasks-djq (obsolète)
-************************
-
-Implémentation `Django-Q`_ du worker de gestion des tâches (alternative à `Celery`_).
-
 mce-django-server
 *****************
 
 Solution complète, intégrant les composants précédents dans un projet Django et prêt à l'emploi dans un docker-compose.
+
+mce-event-push
+**************
+
+Service d'envoi de message pour chaque changement dans l'inventaire.
+
+Composants obsolètes
+--------------------
+
+mce-tasks-djq
+*************
+
+Implémentation `Django-Q`_ du worker de gestion des tâches (alternative à `Celery`_).
+
+Ne convenait pas aux besoins.
 
 
 .. include:: links.rst
