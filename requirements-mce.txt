@@ -1,6 +1,6 @@
-git+https://github.com/multi-cloud-explorer/mce-lib-azure.git@master#egg=mce_lib_azure
-git+https://github.com/multi-cloud-explorer/mce-django-app.git@master#egg=mce_django_app
-git+https://github.com/multi-cloud-explorer/mce-django-server.git@master#egg=mce_django_server
-git+https://github.com/multi-cloud-explorer/mce-tasks-rq.git@master#egg=mce_tasks_rq
-
+-e git+https://github.com/multi-cloud-explorer/mce-lib-azure.git@master#egg=mce_lib_azure
+-e git+https://github.com/multi-cloud-explorer/mce-django-app.git@master#egg=mce_django_app
+-e git+https://github.com/multi-cloud-explorer/mce-django-server.git@master#egg=mce_django_server
+-e git+https://github.com/multi-cloud-explorer/mce-tasks-rq.git@master#egg=mce_tasks_rq
+-e git+https://github.com/multi-cloud-explorer/mce-event-push.git@master#egg=mce_event_push
 
