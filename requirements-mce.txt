@@ -1,4 +1,5 @@
 -e git+https://github.com/multi-cloud-explorer/mce-lib-azure.git@master#egg=mce_lib_azure
+-e git+https://github.com/multi-cloud-explorer/mce-lib-vsphere.git@master#egg=mce_lib_vsphere
 -e git+https://github.com/multi-cloud-explorer/mce-django-app.git@master#egg=mce_django_app
 -e git+https://github.com/multi-cloud-explorer/mce-django-server.git@master#egg=mce_django_server
 -e git+https://github.com/multi-cloud-explorer/mce-tasks-rq.git@master#egg=mce_tasks_rq

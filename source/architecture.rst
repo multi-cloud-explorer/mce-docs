@@ -11,6 +11,11 @@ mce-lib-azure
 
 Librairie pour parcourir toutes les ressources d'une souscription Azure.
 
+mce-lib-vsphere
+***************
+
+Librairie pour parcourir toutes les ressources d'un Vcenter
+
 mce-django-app
 **************
 

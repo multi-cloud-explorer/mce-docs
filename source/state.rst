@@ -29,6 +29,13 @@ mce-lib-azure
 
 `mce-lib-azure`_
 
+mce-lib-vsphere
+***************
+
+|Travis mce-lib-vsphere| |Coveralls mce-lib-vsphere| |Codecov mce-lib-vsphere| |Requirements mce-lib-vsphere|
+
+`mce-lib-vsphere`_
+
 mce-event-push
 **************
 
@@ -75,6 +82,16 @@ mce-event-push
      :target: https://codecov.io/gh/multi-cloud-explorer/mce-lib-azure
 .. |Requirements mce-lib-azure| image:: https://requires.io/github/multi-cloud-explorer/mce-lib-azure/requirements.svg?branch=master
      :target: https://requires.io/github/multi-cloud-explorer/mce-lib-azure/requirements/?branch=master
+     :alt: Requirements Status
+
+.. |Travis mce-lib-vsphere| image:: https://travis-ci.org/multi-cloud-explorer/mce-lib-vsphere.svg?branch=master
+     :target: https://travis-ci.org/multi-cloud-explorer/mce-lib-vsphere
+.. |Coveralls mce-lib-vsphere| image:: https://coveralls.io/repos/github/multi-cloud-explorer/mce-lib-vsphere/badge.svg?branch=master
+     :target: https://coveralls.io/github/multi-cloud-explorer/mce-lib-vsphere?branch=master
+.. |Codecov mce-lib-vsphere| image:: https://codecov.io/gh/multi-cloud-explorer/mce-lib-vsphere/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/multi-cloud-explorer/mce-lib-vsphere
+.. |Requirements mce-lib-vsphere| image:: https://requires.io/github/multi-cloud-explorer/mce-lib-vsphere/requirements.svg?branch=master
+     :target: https://requires.io/github/multi-cloud-explorer/mce-lib-vsphere/requirements/?branch=master
      :alt: Requirements Status
 
 .. |Travis mce-event-push| image:: https://travis-ci.org/multi-cloud-explorer/mce-event-push.svg?branch=master

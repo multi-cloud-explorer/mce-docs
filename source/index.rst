@@ -35,6 +35,12 @@ Multi-Cloud-Explorer
 
    cloud-libraries/azure
 
+.. toctree::
+   :maxdepth: 1
+   :caption: VMware
+
+   cloud-libraries/vsphere
+
 Fonctionnalités
 ---------------
 
@@ -48,6 +54,7 @@ Providers
 - [x] Azure
 - [ ] AWS
 - [ ] GCP
+- [ ] VMware
 
 Indices and tables
 ------------------
