@@ -1,7 +1,11 @@
-VMware (vsphere)
-----------------
+mce\_lib\_vsphere package
+=========================
 
-.. todo::
+mce\_lib\_vsphere.core module
+-----------------------------
 
-   SDK à terminer
+.. automodule:: mce_lib_vsphere.core
+   :members:
+   :undoc-members:
+   :show-inheritance:
 

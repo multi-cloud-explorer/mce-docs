@@ -9,9 +9,9 @@ Multi-Cloud-Explorer
 
 **La récupération des resources se fait par plusieurs méthodes:**
 
-- Inventaire périodique lancé à partir de l'application
+- Inventaire périodique lancé à partir d'un worker MCE
 - Réception des évènements par l'api REST, à partir d'une fonction serverless
-- Appel manuel de l'api REST
+- Appel manuel de l'api REST déclenché par vos soins
 
 **L'inventaire pourra être exploité par différents moyens:**
 
@@ -37,9 +37,21 @@ Multi-Cloud-Explorer
 
 .. toctree::
    :maxdepth: 1
+   :caption: AWS
+
+   cloud-libraries/aws
+
+.. toctree::
+   :maxdepth: 1
    :caption: VMware
 
    cloud-libraries/vsphere
+
+.. toctree::
+   :maxdepth: 1
+   :caption: External Libraries
+
+   cloud-libraries/pyvmomi
 
 Fonctionnalités
 ---------------

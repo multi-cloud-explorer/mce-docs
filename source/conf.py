@@ -27,6 +27,7 @@ master_doc = "index"
 extensions = [
     'recommonmark',
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.napoleon',
     'sphinx_autodoc_typehints',
     'sphinx_rtd_theme',
@@ -52,6 +53,8 @@ todo_include_todos = False
 
 # -- Options for HTML output -------------------------------------------------
 
+# https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
+
 html_context = {
     "display_github": True, 
     "github_user": "multi-cloud-explorer", # Username
@@ -65,13 +68,13 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
 
 html_theme_options = {
-    'github_url': 'https://github.com/multi-cloud-explorer/mce-docs.git',
-    #'canonical_url': '',
+    #'github_url': 'https://github.com/multi-cloud-explorer/mce-docs.git',
+    'canonical_url': 'https://multi-cloud-explorer.readthedocs.io/',
     #'logo_only': False,
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
-    'vcs_pageview_mode': 'display_gitlab',
+    #'vcs_pageview_mode': 'display_github',
     #'style_nav_header_background': 'white',
     'collapse_navigation': True,
     #'sticky_navigation': True,
@@ -80,36 +83,30 @@ html_theme_options = {
     #'titles_only': False
 }
 
-"""
-import sphinx_rtd_theme
-
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-html_theme_options = {
-  'prev_next_buttons_location': 'both',
-  'style_external_links': True,
-  'analytics_id': "UA-162730326-1",
-  # Toc options
-  'collapse_navigation': False,
-  'sticky_navigation': True,
-  'includehidden': True,
-  'titles_only': False
-}
-
-def setup(app):
-    app.add_javascript('js/expand.js')
-    app.add_stylesheet('css/expand.css')
-"""
-
 # -- Extension configuration -------------------------------------------------
 
+# sphinx.ext.napoleon
+napoleon_google_docstring = True
+napoleon_numpy_docstring = False
 napoleon_include_init_with_doc = False
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = False
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = False
+napoleon_use_admonition_for_references = False
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
 
 intersphinx_mapping = {
-    #'python': ('http://docs.python.org/3.7', None),
-    #'sphinx': ('http://sphinx.pocoo.org/', None),
-    #'django': ('http://docs.djangoproject.com/en/dev/', 'http://docs.djangoproject.com/en/dev/_objects/'),
+    'python': ('http://docs.python.org/3.7', None),
+    'django': ('http://docs.djangoproject.com/en/dev/', 'http://docs.djangoproject.com/en/dev/_objects/'),
 }
+
+# sphinx_autodoc_typehints
+typehints_fully_qualified = True 
+set_type_checking_flag = True
+always_document_param_types = True
 
 """
 extlinks = {

@@ -11,6 +11,11 @@ mce-lib-azure
 
 Librairie pour parcourir toutes les ressources d'une souscription Azure.
 
+mce-lib-aws
+*************
+
+Librairie pour parcourir toutes les ressources d'une souscription AWS.
+
 mce-lib-vsphere
 ***************
 
