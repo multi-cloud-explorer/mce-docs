@@ -1,4 +1,5 @@
 .. _`mce-lib-azure`: https://github.com/multi-cloud-explorer/mce-lib-azure.git
+.. _`mce-lib-aws`: https://github.com/multi-cloud-explorer/mce-lib-aws.git
 .. _`mce-lib-vsphere`: https://github.com/multi-cloud-explorer/mce-lib-vsphere.git
 .. _`mce-django-app`: https://github.com/multi-cloud-explorer/mce-django-app.git
 .. _`mce-tasks-djq`: https://github.com/multi-cloud-explorer/mce-tasks-djq.git
